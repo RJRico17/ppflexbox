@@ -1,3 +1,24 @@
 header {
+    display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;;
+}
+.card-container {
+    display: flex;
+    text-align: center;
+}
+.features {
+    display: flex;
+}
+.feature-item {
+    flex-direction: row-reverse;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.footer-section {
+    text-align: left;
+}
+.footer-section > a {
+    flex-direction: column;
 }
